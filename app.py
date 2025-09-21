@@ -98,8 +98,9 @@ def main():
                 st.markdown(f"*Question {q}*: ❌ Wrong")
 
         st.markdown("---")
-        st.success(f"🎯 You got {correct} out of {total} correct ({(correct/total)*100:.2f}%)")
+        st.success(f"🎯 You got {correct} out of {total} corre*100:.2f}%)")
 
 if __name__ == "__main__":
     main()
+
 
