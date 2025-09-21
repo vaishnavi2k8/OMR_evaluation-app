@@ -100,5 +100,6 @@ def main():
         st.markdown("---")
         st.success(f"🎯 You got {correct} out of {total} correct ({(correct/total)*100:.2f}%)")
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
+
